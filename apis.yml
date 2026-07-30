@@ -1,19 +1,44 @@
 aid: dev-agents
 name: /dev/agents
-description: '/dev/agents is a company surfaced as a portfolio company of index-ventures and added to
-  the API Evangelist network as a stub for enrichment. Sector: ai-ml. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: '/dev/agents (homepage sdsa.ai) is building a next-generation operating
+  system for AI agents - a cloud platform, developer tools, and new UI primitives
+  meant to let autonomous agents coordinate work across a user''s apps and devices
+  instead of people navigating individual applications. It was founded in 2024 by
+  David Singleton (former Stripe CTO and Google Android VP of Engineering), Hugo Barra,
+  Ficus Kirkpatrick, and Nicholas Jitkoff, and raised a $56M seed round at a $500M
+  valuation led by Index Ventures with CapitalG and Conviction. As of this profile
+  the company is pre-launch: it publishes no public API, SDK, or developer documentation
+  yet, so this API Evangelist entry captures verified company identity and domain
+  posture only.'
 url: https://raw.githubusercontent.com/api-evangelist/dev-agents/refs/heads/main/apis.yml
 x-type: company
 x-source: index-ventures-portfolio
 x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier-reason: portfolio-lead-prelaunch
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
+image: https://sdsa.ai/social_card.png
 tags:
 - Company
 - Ai Ml
+- AI Agents
+- Agent Operating System
+- Autonomous Agents
+- Agentic AI
+- Developer Platform
+- Artificial Intelligence
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,4 +47,6 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: http://sdsa.ai
+  url: https://sdsa.ai
+- type: DomainSecurity
+  url: security/dev-agents-domain-security.yml
